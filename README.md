@@ -27,8 +27,8 @@
   
   {
     // node 24.x
-    using factory3 = () => ({data: 42, text: "hello"});
-    const getData = lazy(factory2);
+    const factory3 = () => ({data: 42, text: "hello"});
+    using getData = lazy(factory2);
     const data = getData();
   } // cache is disposed here
 ```

@@ -4,5 +4,20 @@
   "description": "Lazy loading",
   "keywords": ["lazy", "lazy loading", "ghost object", "nodejs lazy"],
   "exports": "./main.js",
-  "types": "./main.d.ts"
+  "types": "./main.d.ts",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "files": ["main.d.ts"],
+  "homepage": "https://github.com/NaughtySora/lazy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaughtySora/lazy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NaughtySora/lazy/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }

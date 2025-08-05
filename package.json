@@ -1,0 +1,8 @@
+{
+  "name": "lazy",
+  "version": "0.0.1",
+  "description": "Lazy loading",
+  "keywords": ["lazy", "lazy loading", "ghost object", "nodejs lazy"],
+  "exports": "./main.js",
+  "types": "./main.d.ts"
+}

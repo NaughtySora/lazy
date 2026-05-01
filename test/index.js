@@ -79,17 +79,3 @@ describe("lazy", () => {
     assert.ok(!lazy.delete('-=-'));
   });
 });
-
-//   const actual = { a: 1 };
-//   const factory = count(() => actual);
-//   using get = lazy(factory, { interval: 500 });
-//   const data = get();
-//   assert.deepEqual(data, actual);
-//   await timers.setTimeout(750);
-//   const data2 = get();
-//   assert.deepEqual(data2, actual);
-//   await timers.setTimeout(750);
-//   const data3 = get();
-//   assert.deepEqual(data3, actual);
-//   assert.deepEqual(factory.counter, 3);
-// });
